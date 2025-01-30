@@ -2,7 +2,7 @@ const { AoiClient } = require("aoi.js");
 
 
 const client = new AoiClient({
-  token: "MTMyMzA2OTcxMjU2MDY4NTIwNg.GNTX4C.VWKTmBIITjGpv0ojqnPVzs0IjpNgoM2sCgg-yg",
+  token: "MTMyMzA2OTcxMjU2MDY4NTIwNg.GR2IyF.LsJiou7zSH6otLKDkY5h-3FWO24bEsd7HROP5I",
   prefix: [ "N?","$getGuildVar[prefix]"],
   intents: ["MessageContent", "Guilds", "GuildMessages"],
   events: ["onMessage", "onInteractionCreate"],
